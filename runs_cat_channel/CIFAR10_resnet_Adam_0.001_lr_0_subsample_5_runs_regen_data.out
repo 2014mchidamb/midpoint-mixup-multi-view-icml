@@ -1,0 +1,32 @@
+The following model/training parameters were used for this run: 
+
+batch_size =  750
+base_mixup_alpha =  1
+mixup_alpha =  0
+relu_alpha (only used for CNN) =  11
+lr =  0.001
+epochs =  100
+num_runs =  5
+-------------------------------------------------
+
+Uniform Mixup model training loss results: 
+-------------------------------------------------
+
+Uniform Mixup average test error over 5 runs: 18.52%
+1 std for final test error: 0.01%
+-------------------------------------------------
+
+Midpoint Mixup model training loss results: 
+-------------------------------------------------
+
+Midpoint Mixup average test error over 5 runs: 22.29%
+1 std for final test error: 0.02%
+-------------------------------------------------
+
+Base model training loss results: 
+-------------------------------------------------
+
+Base average test error over 5 runs: 27.77%
+1 std for final test error: 0.02%
+-------------------------------------------------
+
